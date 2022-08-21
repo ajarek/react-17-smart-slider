@@ -1,5 +1,5 @@
 import './App.css';
-import Slider from './components/Slider';
+import Slider from './components/sliders/Slider';
 function App() {
   return (
     <div className="App">
