@@ -1,10 +1,10 @@
 import React from "react";
 import Dots from '../../components/dots/Dot';
+import Modal from "../modals/Modal";
 import "./slider.css";
 class Slider extends React.Component {
   state = {
-    foto: 1,
-   
+    foto: 1
   }
    prevFoto = () => {
     let { foto } = this.state;
@@ -38,6 +38,9 @@ class Slider extends React.Component {
         </div>
         <Dots 
         active={this.state.foto-1}
+        />
+        <Modal
+        display={this.state.foto-1}
         />
       </div>
     );

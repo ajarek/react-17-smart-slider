@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transition: all 0.3s ease-in-out;
 }
 .dots span{
     width: 10px;
@@ -20,5 +21,5 @@
     cursor: pointer;
 }
 .dots span.active{
-    background-color: #16b7cc;
+    background-color: #16b7cc;   
 }
