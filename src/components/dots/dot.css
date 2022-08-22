@@ -1,25 +1,30 @@
-.dots{
-    width: 80px;
-    height: 32px;
-    position: absolute;
-    bottom: 3%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #fff;
-    border-radius: 25px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
+.dots {
+  width: 80px;
+  height: 32px;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
 }
-.dots span{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #46647c;
-    cursor: pointer;
+.dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #46647c;
+  cursor: pointer;
 }
-.dots span.active{
-    background-color: #16b7cc;   
+.dots span.active {
+  background-color: #16b7cc;
+}
+@media screen and (max-width: 600px) {
+  .dots {
+    bottom: 93%;
+  }
 }
